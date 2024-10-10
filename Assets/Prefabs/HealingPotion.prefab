@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6710665693337326470}
   - component: {fileID: 5016121750237267113}
   - component: {fileID: 1469115070673821942}
-  - component: {fileID: 2205290957314147385}
+  - component: {fileID: -8451026452825440756}
   m_Layer: 0
   m_Name: HealingPotion
   m_TagString: Untagged
@@ -143,7 +143,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2205290957314147385
+--- !u!114 &-8451026452825440756
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,5 +155,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6383f673d6d3834a8ece7f885ee8172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _respawnTime: 60
-  _healingValue: 50
+  <HealingValue>k__BackingField: 50

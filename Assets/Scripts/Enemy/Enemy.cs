@@ -17,7 +17,7 @@ public class Enemy : MonoBehaviour
     private Rigidbody2D _rigibody;
     private Player _target;
     private Transform _targetTransform;
-    private Collider2D _targetCollider;
+    private Collider2D _targetCollider;    
     private int _health;
 
     public event Action Died;
@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour
         _targetDetector = GetComponent<EnemyTargetDetector>();
         _animator = GetComponent<EnemyAnimationController>();
         _attacker = GetComponent<EnemyAttacker>();
-        _rigibody = GetComponent<Rigidbody2D>();
+        _rigibody = GetComponent<Rigidbody2D>();        
         _health = MaxHealth;
     }
 

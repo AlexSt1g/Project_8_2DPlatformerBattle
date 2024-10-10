@@ -15,7 +15,7 @@ public class EnemyTargetDetector : MonoBehaviour
 
         if (_hasTarget == false && hit.collider != null)
         {
-            if (hit.collider.TryGetComponent<Player>(out Player target))
+            if (hit.collider.TryGetComponent(out Player target))
             {                              
                 Detected?.Invoke(target);
                 _hasTarget = true;
